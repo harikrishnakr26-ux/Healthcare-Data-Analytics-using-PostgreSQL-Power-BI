@@ -469,13 +469,27 @@ Designed for clinical quality officers and medical directors, this page focuses 
 
 ## Key Insights
 
-- **Arthritis is the highest-revenue condition** in the filtered view, while Obesity leads at the full dataset level — condition revenue shifts meaningfully by time period
-- **Admission type split is nearly equal** (Elective ~33.6%, Urgent ~33.6%, Emergency ~32.8%) — suggesting no single pathway dominates, which has capacity planning implications
-- **Test results show a slight abnormal tilt** (Abnormal 34.2%, Normal 33.8%, Inconclusive 32.1%) in Sep 2019 — month-level filtering reveals variation hidden in the overall average
-- **Johnson Group is the top-billing hospital** for Sep 2022; billing variance across providers is significant — Cigna Emergency ($29,954) vs UnitedHealthcare Urgent ($21,987) is a $8K spread within the same dataset
-- **Average length of stay is 15.5 days** overall, with the LOS-vs-billing scatter showing condition-level spread that doesn't always correlate with billing amount
-- **Doctor abnormal rates vary sharply** at the individual level — some doctors show 100% abnormal rates on small caseloads, which the IQR SQL query would surface as statistical outliers for review
-- **The 65+ age cohort consistently records the highest abnormal counts**, reinforcing the need for targeted preventive care programs for elderly patients
+- Obesity generates the highest overall revenue across the dataset, making chronic-condition treatments a major healthcare revenue driver.
+
+- Total healthcare revenue exceeds **$1.42B**, with Johnson PLC emerging as the top-performing hospital overall.
+
+- Admission types are distributed almost equally across Emergency, Urgent, and Elective categories, indicating balanced operational demand across hospitals.
+
+- Clinical test outcomes remain evenly split between Abnormal, Normal, and Inconclusive categories, reflecting a diverse patient health profile.
+
+- The 65+ age group records the highest abnormal test counts, highlighting increased healthcare risk among elderly patients.
+
+- Average billing across medical conditions remains relatively stable (~$25K–$26K), suggesting standardized treatment-cost structures.
+
+- Average patient length of stay is approximately 15 days, though longer stays do not always correspond to higher billing amounts.
+
+- Insurance providers contribute revenue relatively evenly, with Cigna, Medicare, Aetna, Blue Cross, and UnitedHealthcare all showing strong participation.
+
+- Medication usage remains balanced across major drug categories, indicating consistent prescription trends across patients.
+
+- Doctor-level abnormal-result percentages vary significantly, enabling provider-level performance benchmarking and operational analysis.
+
+- Patient admissions and room occupancy remain consistently distributed throughout the week, indicating stable hospital utilization patterns.
 
 ---
 
